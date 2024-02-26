@@ -28,7 +28,11 @@ Users should be able to:
 
 ### Screenshots
 
+Deskotp:
+
 ![](./screenshot1.png)
+
+Mobile:
 ![](./screenshot2.png)
 
 ### Links
