@@ -56,9 +56,9 @@ const PlanItem: React.FC<PlanItemProps> = ({
         href={link}
         className={cn(
           plan === "Professional"
-            ? "text-blue bg-white"
-            : "bg-custom-gradient text-white",
-          "mt-8 flex w-full justify-center rounded-[0.375rem] py-3 text-[0.8125rem] uppercase tracking-[0.08706rem]",
+            ? "text-blue border-white bg-white hover:bg-transparent hover:text-white"
+            : "bg-custom-gradient hover:text-blue hover:border-blue border-transparent text-white hover:!bg-white hover:bg-none",
+          "mt-8 flex w-full cursor-pointer justify-center rounded-[0.375rem] border py-3 text-[0.8125rem] uppercase tracking-[0.08706rem]",
         )}
         aria-label={`learn more about ${plan} plan`}
       >
