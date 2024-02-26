@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap; /* added line */
+    border: 0;
+  }
+
+  .footer-link {
+    @apply cursor-pointer underline;
+  }
+
+  .plan-option {
+    @apply border-light-grayish-blue w-full border-t border-opacity-25 py-3 text-center text-[0.9375rem] leading-7 last:border-b;
+  }
+}
