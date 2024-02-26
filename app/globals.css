@@ -16,7 +16,7 @@
   }
 
   .footer-link {
-    @apply cursor-pointer underline;
+    @apply hover:text-blue cursor-pointer underline;
   }
 
   .plan-option {

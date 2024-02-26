@@ -28,7 +28,7 @@ export default function Attribution() {
       <div>
         <a
           className="footer-link"
-          href="https://github.com/tatasadi/"
+          href="https://github.com/tatasadi/pricing-component-with-toggle"
           target="_blank"
           rel="noreferrer noopener"
         >

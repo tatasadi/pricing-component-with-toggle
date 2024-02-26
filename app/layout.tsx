@@ -6,7 +6,7 @@ import Attribution from "./components/Attribution"
 const montserrat = Montserrat({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Frontend Mentor Challenge",
+  title: "Pricing Component with Toggle",
   description: "A Challenge from Frontend Mentor!",
 }
 
