@@ -53,7 +53,7 @@ Mobile:
 
 ### Implementation time
 
-This challenge was completed over a span of 4 hours.
+This challenge was completed over a span of 2 hours.
 
 ## Author
 
